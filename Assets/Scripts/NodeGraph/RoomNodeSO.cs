@@ -44,7 +44,7 @@ public class RoomNodeSO : ScriptableObject
         // Start Region to detect popup selection changes
         EditorGUI.BeginChangeCheck();
 
-        //Display a popup using the RoomNodeType name values that can be selected from (default to the currently set roomNodeType)
+        // Display a popup using the RoomNodeType name values that can be selected from (default to the currently set roomNodeType)
         int selected = roomNodeTypeList.list.FindIndex(x => x == roomNodeType);
 
         int selection = EditorGUILayout.Popup("", selected, GetRoomNodeTypesToDisplay());
@@ -99,6 +99,10 @@ public class RoomNodeSO : ScriptableObject
         {
             ProcessLeftClickDownEvent();
         }
+        if (currentEvent.button == 1)
+        {
+            ProcessRightClickDownEvent(currentEvent);
+        }
     }
 
     private void ProcessLeftClickDownEvent()
@@ -116,6 +120,13 @@ public class RoomNodeSO : ScriptableObject
         {
             ProcessLeftClickUpEvent();
         }
+
+
+    }
+
+    private void ProcessRightClickDownEvent(Event currentEvent)
+    {
+        roomNodeGraph.SetNodeToDrawConnectionLineFrom(this, currentEvent.mousePosition);
     }
 
     private void ProcessLeftClickUpEvent()
@@ -143,13 +154,23 @@ public class RoomNodeSO : ScriptableObject
         GUI.changed = true;
     }
 
-    private void DragNode(Vector2 delta)
+    public void DragNode(Vector2 delta)
     {
         rect.position += delta;
         EditorUtility.SetDirty(this);
     }
 
+    public bool AddChildRoomNodeIDToRoomNode(string childID)
+    {
+        childRoomNodeIDList.Add(childID);
+        return true;
+    }
 
+    public bool AddParentRoomNodeIDToRoomNode(string parentID)
+    {
+        parentRoomNodeIDList.Add(parentID);
+        return true;
+    }
 
 #endif
     #endregion Editor Code
