@@ -287,6 +287,59 @@ MonoBehaviour:
   m_MaximumFOV: 60
   m_MinimumOrthoSize: 8.4375
   m_MaximumOrthoSize: 8.4375
+--- !u!1 &380413487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 380413489}
+  - component: {fileID: 380413488}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &380413488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380413487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01fb44e1cced6074f88a9fba6891d989, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dungeonLevelList:
+  - {fileID: 11400000, guid: ac19462c35a3d1947be126eecde84d9d, type: 2}
+  - {fileID: 11400000, guid: 0d2bdb16c2ad1144e88b1c197bf3493e, type: 2}
+  - {fileID: 11400000, guid: b3863a0b922bd924bbf2cf45754ca0cf, type: 2}
+  - {fileID: 11400000, guid: 5b0c6c37d50482e48be88b3261213cc1, type: 2}
+  - {fileID: 11400000, guid: 7ceb8a5ae2475fd409dfd656f27e0818, type: 2}
+  - {fileID: 11400000, guid: 64f24abdd44b68348994eaa80e21f9a1, type: 2}
+  currentDungeonLevelListIndex: 0
+  gameState: 0
+--- !u!4 &380413489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380413487}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,7 +423,7 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 0.99966234
+    width: 1
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
