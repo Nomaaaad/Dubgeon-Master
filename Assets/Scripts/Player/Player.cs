@@ -5,12 +5,13 @@ using UnityEngine;
 using UnityEngine.Rendering;
 
 #region REQUIRE COMPONENTS
-[RequireComponent(typeof(SortingGroup))]
 [RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(SortingGroup))]
 [RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
 [RequireComponent(typeof(PolygonCollider2D))]
-[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Health))]
 [DisallowMultipleComponent]
 #endregion REQUIRE COMPONENTS
 public class Player : MonoBehaviour
