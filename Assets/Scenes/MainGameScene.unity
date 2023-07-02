@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 62786207}
   - component: {fileID: 62786206}
+  - component: {fileID: 62786208}
   m_Layer: 0
   m_Name: CinemachineTargetGroup
   m_TagString: Untagged
@@ -171,6 +172,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &62786208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62786205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afce37abf538d7a47877fd409a7742e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &263659547
 GameObject:
   m_ObjectHideFlags: 3
@@ -421,9 +434,9 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
+    x: 0.1883959
     y: 0
-    width: 0.99966234
+    width: 0.62373906
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
