@@ -255,6 +255,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TheThief
       objectReference: {fileID: 0}
+    - target: {fileID: 3973072498483608573, guid: 78ccc240c640a8145be3749723088156, type: 3}
+      propertyPath: movementDetails
+      value: 
+      objectReference: {fileID: 11400000, guid: b5bfda5d06e93614eb6d39bc7161d2e0, type: 2}
     - target: {fileID: 4779083340709152542, guid: 78ccc240c640a8145be3749723088156, type: 3}
       propertyPath: m_Sprite
       value: 
