@@ -5,6 +5,9 @@ public class MovementDetailsSO : ScriptableObject
 {
     public float minMoveSpeed = 8f;
     public float maxMoveSpeed = 8f;
+    public float rollSpeed;
+    public float rollDistance;
+    public float rollCooldownTime;
 
     /// <summary>
     /// Get a random movement speed between the minimum and maximum values
@@ -27,6 +30,13 @@ public class MovementDetailsSO : ScriptableObject
     private void OnValidate()
     {
         HelperUtilities.ValidateCheckPositiveRange(this, nameof(minMoveSpeed), minMoveSpeed, nameof(maxMoveSpeed), maxMoveSpeed, false);
+
+        if (rollDistance != 0f || rollSpeed != 0 || rollCooldownTime != 0)
+        {
+            HelperUtilities.ValidateCheckPositiveValue(this, nameof(rollDistance), rollDistance, false);
+            HelperUtilities.ValidateCheckPositiveValue(this, nameof(rollSpeed), rollSpeed, false);
+            HelperUtilities.ValidateCheckPositiveValue(this, nameof(rollCooldownTime), rollCooldownTime, false);
+        }
     }
 
 #endif
