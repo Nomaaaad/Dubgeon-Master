@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
@@ -27,7 +25,6 @@ public class Door : MonoBehaviour
     {
         if (collision.tag == Settings.playerTag || collision.tag == Settings.playerWeapon)
         {
-            Debug.Log("BO");
             OpenDoor();
         }
     }
