@@ -49,3 +49,4 @@ MonoBehaviour:
   dimmedMaterial: {fileID: 2100000, guid: fd5ae752e16da36428c7ae98c49dc19e, type: 2}
   litMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   variableLitShader: {fileID: -6465566751694194690, guid: 842616c214edbcd4b9d3f18d2dc9aedd, type: 3}
+  ammoIconPrefab: {fileID: 5361490726025166225, guid: 332a44dbf58037940ae66f29f31e21e9, type: 3}
