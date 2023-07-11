@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b5bc7228d62355b4e9d1798f742791ff, type: 3}
-  m_Name: WeaponDetails_QBZ95SMG
+  m_Name: WeaponDetails_RocketLauncher
   m_EditorClassIdentifier: 
-  weaponName: QBZ95 SMG
-  weaponSprite: {fileID: 21300000, guid: dff74299f2cf7674eb05930ed6b07f8e, type: 3}
-  weaponShootPosition: {x: 1.284, y: 0.342, z: 0}
-  weaponCurrentAmmo: {fileID: 11400000, guid: 52baef3ad55fa9e499fa6c46c8549a7a, type: 2}
+  weaponName: Rocket Launcher
+  weaponSprite: {fileID: 21300000, guid: f4a1e113145591f45bfacfc7d7bf80c5, type: 3}
+  weaponShootPosition: {x: 1.547, y: 0.306, z: 0}
+  weaponCurrentAmmo: {fileID: 11400000, guid: 70a422705da07f149bb8a6b6a8cbc0bc, type: 2}
   hasInfiniteAmmo: 0
   hasInfiniteClipCapacity: 0
-  weaponClipAmmoCapacity: 15
-  weaponAmmoCapacity: 50
-  weaponFireRate: 0.2
+  weaponClipAmmoCapacity: 2
+  weaponAmmoCapacity: 15
+  weaponFireRate: 1
   weaponPrechargeTime: 0
-  weaponReloadTime: 3
+  weaponReloadTime: 2.5
