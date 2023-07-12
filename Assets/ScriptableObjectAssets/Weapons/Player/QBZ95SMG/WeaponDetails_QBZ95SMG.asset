@@ -9,13 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5bc7228d62355b4e9d1798f742791ff, type: 3}
+  m_Script: {fileID: 11500000, guid: 64a00a35ce5bbe34da0995589e385360, type: 3}
   m_Name: WeaponDetails_QBZ95SMG
   m_EditorClassIdentifier: 
   weaponName: QBZ95 SMG
   weaponSprite: {fileID: 21300000, guid: dff74299f2cf7674eb05930ed6b07f8e, type: 3}
   weaponShootPosition: {x: 1.284, y: 0.342, z: 0}
-  weaponCurrentAmmo: {fileID: 11400000, guid: 52baef3ad55fa9e499fa6c46c8549a7a, type: 2}
+  weaponCurrentAmmo: {fileID: 11400000, guid: 473934ddfd9225a4aae3a8c67e3ed54f, type: 2}
   hasInfiniteAmmo: 0
   hasInfiniteClipCapacity: 0
   weaponClipAmmoCapacity: 15

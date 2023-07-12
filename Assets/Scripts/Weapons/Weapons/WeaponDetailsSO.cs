@@ -14,6 +14,8 @@ public class WeaponDetailsSO : ScriptableObject
     public float weaponFireRate = 0.2f;
     public float weaponPrechargeTime = 0f;
     public float weaponReloadTime = 0f;
+    public SoundEffectSO weaponFiringSoundEffect;
+    public SoundEffectSO weaponReloadingSoundEffect;
 
 
     #region Validation

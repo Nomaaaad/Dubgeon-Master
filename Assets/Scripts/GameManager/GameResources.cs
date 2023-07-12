@@ -1,6 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class GameResources : MonoBehaviour
 {
@@ -28,6 +27,9 @@ public class GameResources : MonoBehaviour
     public Shader variableLitShader;
 
     public GameObject ammoIconPrefab;
+
+    public AudioMixerGroup soundsMasterMixerGroup;
+
 
     #region Validation
 #if UNITY_EDITOR
