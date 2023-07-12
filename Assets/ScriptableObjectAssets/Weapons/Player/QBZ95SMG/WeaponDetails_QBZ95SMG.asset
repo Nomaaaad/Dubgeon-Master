@@ -9,17 +9,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64a00a35ce5bbe34da0995589e385360, type: 3}
+  m_Script: {fileID: 11500000, guid: b5bc7228d62355b4e9d1798f742791ff, type: 3}
   m_Name: WeaponDetails_QBZ95SMG
   m_EditorClassIdentifier: 
-  weaponName: QBZ95 SMG
+  weaponName: QBZ95
   weaponSprite: {fileID: 21300000, guid: dff74299f2cf7674eb05930ed6b07f8e, type: 3}
   weaponShootPosition: {x: 1.284, y: 0.342, z: 0}
-  weaponCurrentAmmo: {fileID: 11400000, guid: 473934ddfd9225a4aae3a8c67e3ed54f, type: 2}
+  weaponCurrentAmmo: {fileID: 11400000, guid: 4bee28453e84c664fb96a3c452902b8a, type: 2}
   hasInfiniteAmmo: 0
   hasInfiniteClipCapacity: 0
-  weaponClipAmmoCapacity: 15
-  weaponAmmoCapacity: 50
+  weaponClipAmmoCapacity: 20
+  weaponAmmoCapacity: 60
   weaponFireRate: 0.2
   weaponPrechargeTime: 0
-  weaponReloadTime: 3
+  weaponReloadTime: 2
+  weaponFiringSoundEffect: {fileID: 11400000, guid: 9334aae7f4949274ba85761edd723580, type: 2}
+  weaponReloadingSoundEffect: {fileID: 11400000, guid: 519a756fc175ce444a077641dd9948f5, type: 2}

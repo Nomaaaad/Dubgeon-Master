@@ -9,15 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64a00a35ce5bbe34da0995589e385360, type: 3}
+  m_Script: {fileID: 11500000, guid: b5bc7228d62355b4e9d1798f742791ff, type: 3}
   m_Name: WeaponDetails_Pistol
   m_EditorClassIdentifier: 
   weaponName: Pistol
   weaponSprite: {fileID: 21300000, guid: abbe40c4d6a803f42a7c4f53404a484d, type: 3}
   weaponShootPosition: {x: 1.115, y: 0.277, z: 0}
   weaponCurrentAmmo: {fileID: 11400000, guid: d096900a933fba145802981599120082, type: 2}
-  weaponFiringSoundEffect: {fileID: 11400000, guid: 0b49daeb5dc5ec24facd4bbabdc82b8f, type: 2}
-  weaponReloadingSoundEffect: {fileID: 11400000, guid: 487ccb67d22d9e445acc2d1bdb42401f, type: 2}
   hasInfiniteAmmo: 1
   hasInfiniteClipCapacity: 0
   weaponClipAmmoCapacity: 10
@@ -25,3 +23,5 @@ MonoBehaviour:
   weaponFireRate: 0.25
   weaponPrechargeTime: 0
   weaponReloadTime: 1.2
+  weaponFiringSoundEffect: {fileID: 11400000, guid: 7d5500eb493de1a4d89d246d26851dfb, type: 2}
+  weaponReloadingSoundEffect: {fileID: 11400000, guid: e6a3897fdaa353c4b94fd4004273fb04, type: 2}

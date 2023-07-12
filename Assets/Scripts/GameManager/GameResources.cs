@@ -29,6 +29,7 @@ public class GameResources : MonoBehaviour
     public GameObject ammoIconPrefab;
 
     public AudioMixerGroup soundsMasterMixerGroup;
+    public SoundEffectSO doorOpenCloseSoundEffect;
 
 
     #region Validation
@@ -38,6 +39,8 @@ public class GameResources : MonoBehaviour
     {
         HelperUtilities.ValidateCheckNullValue(this, nameof(roomNodeTypeList), roomNodeTypeList);
         HelperUtilities.ValidateCheckNullValue(this, nameof(currentPlayer), currentPlayer);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(soundsMasterMixerGroup), soundsMasterMixerGroup);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(doorOpenCloseSoundEffect), doorOpenCloseSoundEffect);
         HelperUtilities.ValidateCheckNullValue(this, nameof(litMaterial), litMaterial);
         HelperUtilities.ValidateCheckNullValue(this, nameof(dimmedMaterial), dimmedMaterial);
         HelperUtilities.ValidateCheckNullValue(this, nameof(variableLitShader), variableLitShader);

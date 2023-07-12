@@ -122,9 +122,11 @@ public class FireWeapon : MonoBehaviour
 
         if (currentAmmo != null)
         {
+            // Fire ammo routine.
             StartCoroutine(FireAmmoRoutine(currentAmmo, aimAngle, weaponAimAngle, weaponAimDirectionVector));
         }
     }
+
 
     /// <summary>
     /// Coroutine to spawn multiple ammo per shot if specified in the ammo details
@@ -153,6 +155,7 @@ public class FireWeapon : MonoBehaviour
         {
             ammoCounter++;
 
+            // Get ammo prefab from array
             GameObject ammoPrefab = currentAmmo.ammoPrefabArray[Random.Range(0, currentAmmo.ammoPrefabArray.Length)];
 
             // Get random speed value
@@ -167,7 +170,6 @@ public class FireWeapon : MonoBehaviour
             // Wait for ammo per shot timegap
             yield return new WaitForSeconds(ammoSpawnInterval);
         }
-
         // Reduce ammo clip count if not infinite clip capacity
         if (!activeWeapon.GetCurrentWeapon().weaponDetails.hasInfiniteClipCapacity)
         {
@@ -178,10 +180,10 @@ public class FireWeapon : MonoBehaviour
         // Call weapon fired event
         weaponFiredEvent.CallWeaponFiredEvent(activeWeapon.GetCurrentWeapon());
 
-        // Weapon fired sound effect
         WeaponSoundEffect();
     }
 
+     
     /// <summary>
     /// Reset cooldown timer
     /// </summary>

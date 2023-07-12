@@ -9,6 +9,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64a00a35ce5bbe34da0995589e385360, type: 3}
+  m_Script: {fileID: 11500000, guid: b5bc7228d62355b4e9d1798f742791ff, type: 3}
   m_Name: WeaponDetails_MP7
   m_EditorClassIdentifier: 
+  weaponName: MP7
+  weaponSprite: {fileID: 21300000, guid: a735f74a317b5f944929af56be472cb7, type: 3}
+  weaponShootPosition: {x: 1.146, y: 0.277, z: 0}
+  weaponCurrentAmmo: {fileID: 11400000, guid: 1c41dbc2ab3f4fb4f83936a8a185777d, type: 2}
+  hasInfiniteAmmo: 0
+  hasInfiniteClipCapacity: 0
+  weaponClipAmmoCapacity: 20
+  weaponAmmoCapacity: 60
+  weaponFireRate: 0.15
+  weaponPrechargeTime: 0
+  weaponReloadTime: 2
+  weaponFiringSoundEffect: {fileID: 11400000, guid: bb60d2b365d7bec4bbfb95ee76114b35, type: 2}
+  weaponReloadingSoundEffect: {fileID: 11400000, guid: 7a19884ad7179b54ebf422b34beb2f25, type: 2}
