@@ -1389,6 +1389,9 @@ MonoBehaviour:
   - poolSize: 50
     prefab: {fileID: 6630119373629135211, guid: a274e9c730eb0884a93b68f964010eda, type: 3}
     componentType: SoundEffect
+  - poolSize: 20
+    prefab: {fileID: 7981120319429842843, guid: 3db77b7c03e7198439988ca2be2df4c0, type: 3}
+    componentType: WeaponShootEffect
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1461,10 +1464,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.08385417
+    x: 0
     y: 0
-    width: 0.8324075
-    height: 0.99999994
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
