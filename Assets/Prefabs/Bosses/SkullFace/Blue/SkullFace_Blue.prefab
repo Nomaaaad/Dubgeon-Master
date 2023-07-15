@@ -127,6 +127,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.4
       objectReference: {fileID: 0}
+    - target: {fileID: 6855635005224035989, guid: 7d9bf5c8e5746c642a787fa527ac3292, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 2a6e05932cc7db243b3bb6296cff5612, type: 2}
     - target: {fileID: 7697408492666851500, guid: 7d9bf5c8e5746c642a787fa527ac3292, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3
