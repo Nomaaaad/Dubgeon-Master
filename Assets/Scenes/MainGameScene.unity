@@ -1392,6 +1392,12 @@ MonoBehaviour:
   - poolSize: 20
     prefab: {fileID: 7981120319429842843, guid: 3db77b7c03e7198439988ca2be2df4c0, type: 3}
     componentType: WeaponShootEffect
+  - poolSize: 20
+    prefab: {fileID: 2877584468573035746, guid: 5dce1119f84892347b7cbf926863588a, type: 3}
+    componentType: WeaponShootEffect
+  - poolSize: 20
+    prefab: {fileID: 3081713367149095420, guid: b56540837ead77d4284c1fcc95816ca0, type: 3}
+    componentType: WeaponShootEffect
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1464,10 +1470,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
+    x: 0.08385417
     y: 0
-    width: 1
-    height: 1
+    width: 0.8324075
+    height: 0.99999994
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34

@@ -23,5 +23,6 @@ MonoBehaviour:
   weaponFireRate: 0.4
   weaponPrechargeTime: 0
   weaponReloadTime: 2
+  weaponShootEffect: {fileID: 11400000, guid: 49650af9c442483419d7b307b6cf5941, type: 2}
   weaponFiringSoundEffect: {fileID: 11400000, guid: ece2985002cdd754381c900827f6c2d7, type: 2}
   weaponReloadingSoundEffect: {fileID: 11400000, guid: f84dc16e64c98884c872f28bb4be2c3a, type: 2}
