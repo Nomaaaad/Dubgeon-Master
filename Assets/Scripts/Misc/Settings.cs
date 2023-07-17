@@ -15,6 +15,9 @@ public static class Settings
     public const float fadeInTime = 0.5f;
     #endregion
 
+    public const int defaultAStarMovementPenalty = 40;
+
+
     #region ANIMATOR PARAMETERS
     // Animator parameters - Player
     public static int aimUp = Animator.StringToHash("aimUp");
