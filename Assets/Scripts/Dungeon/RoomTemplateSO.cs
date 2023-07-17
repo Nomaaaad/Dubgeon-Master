@@ -72,6 +72,9 @@ public class RoomTemplateSO : ScriptableObject
 
     public Vector2Int[] spawnPositionArray;
 
+    public List<SpawnableObjectsByLevel<EnemyDetailsSO>> enemiesByLevelList;
+
+
     /// <summary>
     /// Returns the list of Entrances for the room template
     /// </summary>
