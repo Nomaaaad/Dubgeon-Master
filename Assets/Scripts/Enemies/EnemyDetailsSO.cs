@@ -4,6 +4,8 @@ using UnityEngine;
 public class EnemyDetailsSO : ScriptableObject
 {
     public string enemyName;
+    public float chaseDistance = 50f;
+
 
     public GameObject enemyPrefab;
 
@@ -14,6 +16,7 @@ public class EnemyDetailsSO : ScriptableObject
     {
         HelperUtilities.ValidateCheckEmptyStrings(this, nameof(enemyName), enemyName);
         HelperUtilities.ValidateCheckNullValue(this, nameof(enemyPrefab), enemyPrefab);
+        HelperUtilities.ValidateCheckPositiveValue(this, nameof(chaseDistance), chaseDistance, false);
     }
 
 #endif

@@ -50,6 +50,7 @@ public class Ammo : MonoBehaviour, IFireable
     private void OnTriggerEnter2D(Collider2D collision)
     {
         DisableAmmo();
+        Debug.Log("Bob");
     }
 
     /// <summary>

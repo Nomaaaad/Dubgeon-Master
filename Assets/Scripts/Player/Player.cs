@@ -95,6 +95,11 @@ public class Player : MonoBehaviour
         health.SetStartingHealth(playerDetails.playerHealthAmount);
     }
 
+    public Vector3 GetPlayerPosition()
+    {
+        return transform.position;
+    }
+
     /// <summary>
     /// Add a weapon to the player weapon dictionary
     /// </summary>
