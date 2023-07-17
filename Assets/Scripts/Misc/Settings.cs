@@ -16,6 +16,7 @@ public static class Settings
     #endregion
 
     public const int defaultAStarMovementPenalty = 40;
+    public const int preferredPathAStarMovementPenalty = 1;
 
 
     #region ANIMATOR PARAMETERS
