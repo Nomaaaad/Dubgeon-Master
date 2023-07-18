@@ -7,11 +7,15 @@ public class GameManager : SingletonMonobehaviour<GameManager>
 {
     [SerializeField] private List<DungeonLevelSO> dungeonLevelList;
     [SerializeField] private int currentDungeonLevelListIndex = 0;
+
     private Room currentRoom;
     private Room previousRoom;
+
     private PlayerDetailsSO playerDetails;
     private Player player;
+
     [HideInInspector] public GameState gameState;
+    [HideInInspector] public GameState previousGameState;
 
 
 
@@ -54,6 +58,7 @@ public class GameManager : SingletonMonobehaviour<GameManager>
 
     private void Start()
     {
+        previousGameState = GameState.gameStarted;
         gameState = GameState.gameStarted;
     }
 
