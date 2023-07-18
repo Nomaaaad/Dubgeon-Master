@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bc7228d62355b4e9d1798f742791ff, type: 3}
+  m_Name: WeaponDetails_Shotgun_Boss
+  m_EditorClassIdentifier: 
+  weaponName: Shotgun Boss
+  weaponSprite: {fileID: 21300000, guid: c2517a309699a414dacb0773703ce135, type: 3}
+  weaponShootPosition: {x: 1.87, y: 0.31, z: 0}
+  weaponCurrentAmmo: {fileID: 11400000, guid: 4c06c273f39fb60408b29ceb8abbb910, type: 2}
+  hasInfiniteAmmo: 1
+  hasInfiniteClipCapacity: 0
+  weaponClipAmmoCapacity: 6
+  weaponAmmoCapacity: 0
+  weaponFireRate: 0.4
+  weaponPrechargeTime: 0
+  weaponReloadTime: 1
+  weaponShootEffect: {fileID: 11400000, guid: 7f550759ed19e7e4ebd69bd8e930cd4f, type: 2}
+  weaponFiringSoundEffect: {fileID: 11400000, guid: 40a9da8fc6e8dfe478d26299ebea9862, type: 2}
+  weaponReloadingSoundEffect: {fileID: 11400000, guid: 6fb27be400fbdac42a168973984af13c, type: 2}

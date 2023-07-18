@@ -17,6 +17,18 @@ public class EnemyDetailsSO : ScriptableObject
 
     public GameObject enemyPrefab;
 
+    public WeaponDetailsSO enemyWeapon;
+
+    public float firingIntervalMin = 0.1f;
+
+    public float firingIntervalMax = 1f;
+
+    public float firingDurationMin = 1f;
+
+    public float firingDurationMax = 2f;
+
+    public bool firingLineOfSightRequired;
+
     #region Validation
 #if UNITY_EDITOR
     // Validate the scriptable object details entered
@@ -25,6 +37,8 @@ public class EnemyDetailsSO : ScriptableObject
         HelperUtilities.ValidateCheckEmptyStrings(this, nameof(enemyName), enemyName);
         HelperUtilities.ValidateCheckNullValue(this, nameof(enemyPrefab), enemyPrefab);
         HelperUtilities.ValidateCheckPositiveValue(this, nameof(chaseDistance), chaseDistance, false);
+        HelperUtilities.ValidateCheckPositiveRange(this, nameof(firingIntervalMin), firingIntervalMin, nameof(firingIntervalMax), firingIntervalMax, false);
+        HelperUtilities.ValidateCheckPositiveRange(this, nameof(firingDurationMin), firingDurationMin, nameof(firingDurationMax), firingDurationMax, false);
     }
 
 #endif
