@@ -6,6 +6,14 @@ public class EnemyDetailsSO : ScriptableObject
     public string enemyName;
     public float chaseDistance = 50f;
 
+    public Material enemyStandardMaterial;
+
+    public float enemyMaterializeTime;
+
+    public Shader enemyMaterializeShader;
+    [ColorUsage(true, true)]
+
+    public Color enemyMaterializeColor;
 
     public GameObject enemyPrefab;
 
