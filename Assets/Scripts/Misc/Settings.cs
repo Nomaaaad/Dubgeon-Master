@@ -13,6 +13,7 @@ public static class Settings
     #region ROOM SETTINGS
     public const int maxChildCorridors = 3;
     public const float fadeInTime = 0.5f;
+    public const float doorUnlockDelay = 1f;
     #endregion
 
     public const int defaultAStarMovementPenalty = 40;
@@ -20,6 +21,7 @@ public static class Settings
 
     public const float playerMoveDistanceToRebuildPath = 3f;
     public const float enemyPathRebuildCooldown = 2f;
+    public const int defaultEnemyHealth = 20;
 
     public const int targetFrameRateToSpreadPathfindingOver = 60;
 

@@ -29,6 +29,13 @@ GameObject:
   - component: {fileID: 3736139533724310988}
   - component: {fileID: 6361506117272699579}
   - component: {fileID: 8318151822471808734}
+  - component: {fileID: 7267749120409159895}
+  - component: {fileID: 6589310136247559078}
+  - component: {fileID: 8871239988546926877}
+  - component: {fileID: 6956394512993949328}
+  - component: {fileID: 5961441189956287036}
+  - component: {fileID: 547937304472210544}
+  - component: {fileID: 4628475793784038965}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -248,6 +255,10 @@ MonoBehaviour:
   movementToPositionEvent: {fileID: 0}
   setActiveWeaponEvent: {fileID: 0}
   activeWeapon: {fileID: 0}
+  fireWeaponEvent: {fileID: 0}
+  weaponFiredEvent: {fileID: 0}
+  reloadWeaponEvent: {fileID: 0}
+  weaponReloadedEvent: {fileID: 0}
   spriteRenderer: {fileID: 0}
   animator: {fileID: 0}
 --- !u!114 &2572240886065292500
@@ -335,7 +346,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a171063c4bb71d46bbf2fb2ea3491d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponShootPosition: {fileID: 7039767527156758796}
   movementDetails: {fileID: 11400000, guid: 02067bf63ea7b034cb49389acbeb90eb, type: 2}
 --- !u!114 &6970516753381727956
 MonoBehaviour:
@@ -413,6 +423,90 @@ MonoBehaviour:
   weaponPolygonCollider2D: {fileID: 1482346744916238924}
   weaponShootPositionTransform: {fileID: 7039767527156758796}
   weaponEffectPositionTransform: {fileID: 6761924240633046698}
+--- !u!114 &7267749120409159895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896559099729271828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 317d56f097950064d89460d92b8fddea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6589310136247559078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896559099729271828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 325a6979611a29849b95acda17f2832a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8871239988546926877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896559099729271828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe73a4ab38be757448a3837f64a0005b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6956394512993949328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896559099729271828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83266d1385d8fd84abcc776e9a6ba2ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5961441189956287036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896559099729271828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55e3b919921d0454b85ba3a30912600e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &547937304472210544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896559099729271828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad0e3827dfd9deb4eb7069c6d0eac4ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4628475793784038965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896559099729271828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a63f317c61917a340a552fd5f23c834c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2000641014740337843
 GameObject:
   m_ObjectHideFlags: 0
