@@ -13,6 +13,10 @@ public class PlayerDetailsSO : ScriptableObject
     public Sprite playerMiniMapIcon;
     public Sprite playerHandSprite;
 
+    public bool isImmuneAfterHit = false;
+    public float hitImmunityTime;
+
+
     #region Validations
 #if UNITY_EDITOR
 
@@ -26,6 +30,11 @@ public class PlayerDetailsSO : ScriptableObject
         HelperUtilities.ValidateCheckNullValue(this, nameof(playerHandSprite), playerHandSprite);
         HelperUtilities.ValidateCheckNullValue(this, nameof(runtimeAnimatorController), runtimeAnimatorController);
         HelperUtilities.ValidateCheckPositiveValue(this, nameof(playerHealthAmount), playerHealthAmount, false);
+
+        if (isImmuneAfterHit)
+        {
+            HelperUtilities.ValidateCheckPositiveValue(this, nameof(hitImmunityTime), hitImmunityTime, false);
+        }
     }
 
 #endif

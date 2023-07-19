@@ -24,6 +24,8 @@ public static class Settings
     public const int defaultEnemyHealth = 20;
 
     public const int targetFrameRateToSpreadPathfindingOver = 60;
+    public const float contactDamageCollisionResetDelay = 0.5f;
+
 
 
     #region ANIMATOR PARAMETERS
@@ -60,5 +62,6 @@ public static class Settings
 
     #region UI PARAMETERS
     public const float uiAmmoIconSpacing = 4f;
+    public const float uiHeartSpacing = 16f;
     #endregion
 }

@@ -34,6 +34,7 @@ public class GameResources : MonoBehaviour
 
     public AudioMixerGroup soundsMasterMixerGroup;
     public SoundEffectSO doorOpenCloseSoundEffect;
+    public GameObject heartPrefab;
 
 
     #region Validation

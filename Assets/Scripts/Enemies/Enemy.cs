@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 
 #region REQUIRE COMPONENTS
+[RequireComponent(typeof(DealContactDamage))]
 [RequireComponent(typeof(HealthEvent))]
 [RequireComponent(typeof(Health))]
 [RequireComponent(typeof(DestroyedEvent))]
@@ -102,7 +103,7 @@ public class Enemy : MonoBehaviour
     private void EnemyDestroyed()
     {
         DestroyedEvent destroyedEvent = GetComponent<DestroyedEvent>();
-        destroyedEvent.CallDestroyedEvent();
+        destroyedEvent.CallDestroyedEvent(false);
     }
 
     /// <summary>
