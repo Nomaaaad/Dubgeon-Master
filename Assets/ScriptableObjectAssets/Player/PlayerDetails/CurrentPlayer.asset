@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: CurrentPlayer
   m_EditorClassIdentifier: 
   playerDetails: {fileID: 11400000, guid: 45c479e370cd6f040b683bfa1c1e778d, type: 2}
-  playerName: 
+  playerName: Job
