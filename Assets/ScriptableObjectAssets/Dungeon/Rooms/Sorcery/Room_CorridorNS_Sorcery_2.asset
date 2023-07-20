@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2708e4084c4a1534ba646096300f778c, type: 3}
   m_Name: Room_CorridorNS_Sorcery_2
   m_EditorClassIdentifier: 
-  guid: 11d75c0b6f4a7c946855a9f8894d67c2
-  prefab: {fileID: 4327421925113694216, guid: 08eff4dd3eb96da46828efffc0982194, type: 3}
-  previousPrefab: {fileID: 4327421925113694216, guid: 08eff4dd3eb96da46828efffc0982194, type: 3}
+  guid: b0c0a345d5e6df541bb9c8242de86c3f
+  prefab: {fileID: 4327421925113694216, guid: 302738a79988f3843a396b064f2d61d8, type: 3}
+  previousPrefab: {fileID: 4327421925113694216, guid: 302738a79988f3843a396b064f2d61d8, type: 3}
   roomNodeType: {fileID: 11400000, guid: 04615b356ad11ac409bf7881d7a36d26, type: 2}
   lowerBounds: {x: -3, y: 0}
   upperBounds: {x: 1, y: 22}
@@ -39,3 +39,5 @@ MonoBehaviour:
   - {x: -1, y: 3}
   - {x: -1, y: 11}
   - {x: -1, y: 22}
+  enemiesByLevelList: []
+  roomEnemySpawnParametersList: []

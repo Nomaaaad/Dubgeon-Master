@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2708e4084c4a1534ba646096300f778c, type: 3}
   m_Name: Room_Entrance_Sorcery_3
   m_EditorClassIdentifier: 
-  guid: 2b11d4029efaead40908e17522ade9c2
-  prefab: {fileID: 4327421925113694216, guid: b9e12a42d9301d84fa15eb42e4e4fdd8, type: 3}
-  previousPrefab: {fileID: 4327421925113694216, guid: b9e12a42d9301d84fa15eb42e4e4fdd8, type: 3}
+  guid: 99382c67987b29a448eeac5751da8491
+  prefab: {fileID: 4327421925113694216, guid: 5b8b6d5a119f84741bede75975e06075, type: 3}
+  previousPrefab: {fileID: 4327421925113694216, guid: 5b8b6d5a119f84741bede75975e06075, type: 3}
   roomNodeType: {fileID: 11400000, guid: cb9fa148d2ac15f4bbdbac47ee6643b5, type: 2}
   lowerBounds: {x: -5, y: -10}
   upperBounds: {x: 38, y: 37}
@@ -59,3 +59,5 @@ MonoBehaviour:
   - {x: 1, y: 12}
   - {x: 32, y: 12}
   - {x: 18, y: -3}
+  enemiesByLevelList: []
+  roomEnemySpawnParametersList: []

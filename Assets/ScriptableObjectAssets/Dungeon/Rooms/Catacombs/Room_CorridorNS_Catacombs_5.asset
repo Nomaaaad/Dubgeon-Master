@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2708e4084c4a1534ba646096300f778c, type: 3}
   m_Name: Room_CorridorNS_Catacombs_5
   m_EditorClassIdentifier: 
-  guid: 5923bdf65d63f29488e802e8da8bb4a0
-  prefab: {fileID: 3415367689713843396, guid: c702fb68ed33587409597e3cbb3b5eb2, type: 3}
-  previousPrefab: {fileID: 3415367689713843396, guid: c702fb68ed33587409597e3cbb3b5eb2, type: 3}
+  guid: 72689479ab14cc94891b16f7038f746f
+  prefab: {fileID: 3415367689713843396, guid: 35b1c97943688f04ea63022a4c449828, type: 3}
+  previousPrefab: {fileID: 3415367689713843396, guid: 35b1c97943688f04ea63022a4c449828, type: 3}
   roomNodeType: {fileID: 11400000, guid: 04615b356ad11ac409bf7881d7a36d26, type: 2}
   lowerBounds: {x: 0, y: 0}
   upperBounds: {x: 4, y: 13}
@@ -37,3 +37,5 @@ MonoBehaviour:
     isUnavailable: 0
   spawnPositionArray:
   - {x: 3, y: 4}
+  enemiesByLevelList: []
+  roomEnemySpawnParametersList: []

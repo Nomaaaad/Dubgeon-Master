@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2708e4084c4a1534ba646096300f778c, type: 3}
   m_Name: Room_MediumRoom_Sorcery_3
   m_EditorClassIdentifier: 
-  guid: 405c58a643ad9ce4e920b775148c6c08
-  prefab: {fileID: 4327421925113694216, guid: e28f2ad9c8b849a4c9008e74f493d4ae, type: 3}
-  previousPrefab: {fileID: 4327421925113694216, guid: e28f2ad9c8b849a4c9008e74f493d4ae, type: 3}
+  guid: 189f5265b426a714991e8dc53a65d8bf
+  prefab: {fileID: 4327421925113694216, guid: b525a266911bfea4cad2d194966717a7, type: 3}
+  previousPrefab: {fileID: 4327421925113694216, guid: b525a266911bfea4cad2d194966717a7, type: 3}
   roomNodeType: {fileID: 11400000, guid: 1fc4171425cd92640b7938a587fabd9a, type: 2}
   lowerBounds: {x: 3, y: -6}
   upperBounds: {x: 53, y: 49}
