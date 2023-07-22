@@ -51,6 +51,7 @@ public static class Settings
 
     // Animator parameters - Door
     public static int open = Animator.StringToHash("open");
+    public static int use = Animator.StringToHash("use");
     #endregion
 
     // Animator parameters - DamageableDecoration

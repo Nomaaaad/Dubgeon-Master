@@ -57,3 +57,11 @@ MonoBehaviour:
   soundsMasterMixerGroup: {fileID: -4734643798044506327, guid: 2ac509b551addfb48950fbdc0d9cefb4, type: 2}
   doorOpenCloseSoundEffect: {fileID: 11400000, guid: 1fdd02d1a75388b49b71d7ebf1c5f34d, type: 2}
   heartPrefab: {fileID: 3494200436517219732, guid: b1634a9540597e24dac96c15266d3ba8, type: 3}
+  chestOpen: {fileID: 11400000, guid: b07e56e74dfe906489a8efc5005c84ac, type: 2}
+  healthPickup: {fileID: 11400000, guid: a641d2011467e284da79d26e5773fd33, type: 2}
+  weaponPickup: {fileID: 11400000, guid: 5f292a081f7b53c49856567a3eda77ce, type: 2}
+  ammoPickup: {fileID: 11400000, guid: ab2701cdafd4a9c40b7dae6bb68ba484, type: 2}
+  materializeShader: {fileID: -6465566751694194690, guid: 5fec8f8e6ea244648a3c6ede24a56288, type: 3}
+  chestItemPrefab: {fileID: 1163939275042840359, guid: 6aaec6936cd20214889ef8dc8f451fb4, type: 3}
+  heartIcon: {fileID: 21300000, guid: 93356131eec0f44458223985928ac6e3, type: 3}
+  bulletIcon: {fileID: 21300000, guid: a2482871b46d396438236c07b6402283, type: 3}

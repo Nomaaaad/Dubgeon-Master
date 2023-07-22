@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3708503041299149277
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 619639278595452827, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 619639278595452827, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 619639278595452827, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 619639278595452827, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 619639278595452827, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 619639278595452827, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 619639278595452827, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 619639278595452827, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 619639278595452827, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 619639278595452827, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 619639278595452827, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2018363171732668635, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: m_Name
+      value: ChestSpawner_RoomEntry_ChestRoom
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: chestSpawnEvent
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: chestSpawnPosition
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: chestSpawnChanceMin
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: chestSpawnChanceByLevelList.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[0].spawnableObjectRatioList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[1].spawnableObjectRatioList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[2].spawnableObjectRatioList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[3].spawnableObjectRatioList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[4].spawnableObjectRatioList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[5].spawnableObjectRatioList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[0].spawnableObjectRatioList.Array.data[0].ratio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[0].spawnableObjectRatioList.Array.data[1].ratio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[0].spawnableObjectRatioList.Array.data[2].ratio
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[1].spawnableObjectRatioList.Array.data[0].ratio
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[1].spawnableObjectRatioList.Array.data[1].ratio
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[1].spawnableObjectRatioList.Array.data[2].ratio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[2].spawnableObjectRatioList.Array.data[0].ratio
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[2].spawnableObjectRatioList.Array.data[1].ratio
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[2].spawnableObjectRatioList.Array.data[2].ratio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[3].spawnableObjectRatioList.Array.data[0].ratio
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[3].spawnableObjectRatioList.Array.data[1].ratio
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[4].spawnableObjectRatioList.Array.data[0].ratio
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[4].spawnableObjectRatioList.Array.data[1].ratio
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[5].spawnableObjectRatioList.Array.data[0].ratio
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[5].spawnableObjectRatioList.Array.data[1].ratio
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[0].spawnableObjectRatioList.Array.data[0].dungeonObject
+      value: 
+      objectReference: {fileID: 11400000, guid: 9a91bfc0a803b5543ac0b61996dbdd11, type: 2}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[0].spawnableObjectRatioList.Array.data[1].dungeonObject
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e0fdca937533a94197a63bf780ddf56, type: 2}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[0].spawnableObjectRatioList.Array.data[2].dungeonObject
+      value: 
+      objectReference: {fileID: 11400000, guid: 4a60b8c12f15e2c44a5320780e7c63a2, type: 2}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[1].spawnableObjectRatioList.Array.data[0].dungeonObject
+      value: 
+      objectReference: {fileID: 11400000, guid: 9a91bfc0a803b5543ac0b61996dbdd11, type: 2}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[1].spawnableObjectRatioList.Array.data[1].dungeonObject
+      value: 
+      objectReference: {fileID: 11400000, guid: c20087c100e128346a356f26c39c0269, type: 2}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[1].spawnableObjectRatioList.Array.data[2].dungeonObject
+      value: 
+      objectReference: {fileID: 11400000, guid: 4a60b8c12f15e2c44a5320780e7c63a2, type: 2}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[2].spawnableObjectRatioList.Array.data[0].dungeonObject
+      value: 
+      objectReference: {fileID: 11400000, guid: 57b14e08e58abe548b4aef3c44385278, type: 2}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[2].spawnableObjectRatioList.Array.data[1].dungeonObject
+      value: 
+      objectReference: {fileID: 11400000, guid: 9a91bfc0a803b5543ac0b61996dbdd11, type: 2}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[2].spawnableObjectRatioList.Array.data[2].dungeonObject
+      value: 
+      objectReference: {fileID: 11400000, guid: c20087c100e128346a356f26c39c0269, type: 2}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[3].spawnableObjectRatioList.Array.data[0].dungeonObject
+      value: 
+      objectReference: {fileID: 11400000, guid: 9a91bfc0a803b5543ac0b61996dbdd11, type: 2}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[3].spawnableObjectRatioList.Array.data[1].dungeonObject
+      value: 
+      objectReference: {fileID: 11400000, guid: c20087c100e128346a356f26c39c0269, type: 2}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[4].spawnableObjectRatioList.Array.data[0].dungeonObject
+      value: 
+      objectReference: {fileID: 11400000, guid: 57b14e08e58abe548b4aef3c44385278, type: 2}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[4].spawnableObjectRatioList.Array.data[1].dungeonObject
+      value: 
+      objectReference: {fileID: 11400000, guid: a116a723ed10d624d810f16baad57b02, type: 2}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[5].spawnableObjectRatioList.Array.data[0].dungeonObject
+      value: 
+      objectReference: {fileID: 11400000, guid: ee5f984dcbb49d840bc8ba89741fde09, type: 2}
+    - target: {fileID: 6486125760723660651, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
+      propertyPath: weaponSpawnByLevelList.Array.data[5].spawnableObjectRatioList.Array.data[1].dungeonObject
+      value: 
+      objectReference: {fileID: 11400000, guid: a116a723ed10d624d810f16baad57b02, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c4b17cc935ca17843a6836aabf295b76, type: 3}
