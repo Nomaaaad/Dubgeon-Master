@@ -24,6 +24,8 @@ public class RoomTemplateSO : ScriptableObject
 
     [HideInInspector] public GameObject previousPrefab; // this is used to regenerate the guid if the so is copied and the prefab is changed
 
+    public MusicTrackSO battleMusic;
+    public MusicTrackSO ambientMusic;
 
     #region Header ROOM CONFIGURATION
 
@@ -116,6 +118,9 @@ public class RoomTemplateSO : ScriptableObject
                 HelperUtilities.ValidateCheckPositiveRange(this, nameof(roomEnemySpawnParameters.minTotalEnemiesToSpawn), roomEnemySpawnParameters.minTotalEnemiesToSpawn, nameof(roomEnemySpawnParameters.maxTotalEnemiesToSpawn), roomEnemySpawnParameters.maxTotalEnemiesToSpawn, true);
                 HelperUtilities.ValidateCheckPositiveRange(this, nameof(roomEnemySpawnParameters.minSpawnInterval), roomEnemySpawnParameters.minSpawnInterval, nameof(roomEnemySpawnParameters.maxSpawnInterval), roomEnemySpawnParameters.maxSpawnInterval, true);
                 HelperUtilities.ValidateCheckPositiveRange(this, nameof(roomEnemySpawnParameters.minConcurrentEnemies), roomEnemySpawnParameters.minConcurrentEnemies, nameof(roomEnemySpawnParameters.maxConcurrentEnemies), roomEnemySpawnParameters.maxConcurrentEnemies, false);
+
+                HelperUtilities.ValidateCheckNullValue(this, nameof(battleMusic), battleMusic);
+                HelperUtilities.ValidateCheckNullValue(this, nameof(ambientMusic), ambientMusic);
 
                 bool isEnemyTypesListForDungeonLevel = false;
 

@@ -49,6 +49,11 @@ public class GameResources : MonoBehaviour
 
     public GameObject minimapSkullPrefab;
 
+    public AudioMixerGroup musicMasterMixerGroup;
+    public AudioMixerSnapshot musicOnFullSnapshot;
+    public AudioMixerSnapshot musicLowSnapshot;
+    public AudioMixerSnapshot musicOffSnapshot;
+
 
 
     #region Validation
@@ -56,6 +61,11 @@ public class GameResources : MonoBehaviour
     // Validate the scriptable object details entered
     private void OnValidate()
     {
+        HelperUtilities.ValidateCheckNullValue(this, nameof(preferredEnemyPathTile), preferredEnemyPathTile);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(musicMasterMixerGroup), musicMasterMixerGroup);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(musicOnFullSnapshot), musicOnFullSnapshot);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(musicLowSnapshot), musicLowSnapshot);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(musicOffSnapshot), musicOffSnapshot);
         HelperUtilities.ValidateCheckNullValue(this, nameof(chestOpen), chestOpen);
         HelperUtilities.ValidateCheckNullValue(this, nameof(healthPickup), healthPickup);
         HelperUtilities.ValidateCheckNullValue(this, nameof(ammoPickup), ammoPickup);
