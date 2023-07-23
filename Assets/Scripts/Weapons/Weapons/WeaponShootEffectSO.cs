@@ -29,25 +29,4 @@ public class WeaponShootEffectSO : ScriptableObject
     public Vector3 velocityOverLifetimeMax;
 
     public GameObject weaponShootEffectPrefab;
-
-
-    #region Validation
-
-#if UNITY_EDITOR
-
-    private void OnValidate()
-    {
-        HelperUtilities.ValidateCheckPositiveValue(this, nameof(duration), duration, false);
-        HelperUtilities.ValidateCheckPositiveValue(this, nameof(startParticleSize), startParticleSize, false);
-        HelperUtilities.ValidateCheckPositiveValue(this, nameof(startParticleSpeed), startParticleSpeed, false);
-        HelperUtilities.ValidateCheckPositiveValue(this, nameof(startLifetime), startLifetime, false);
-        HelperUtilities.ValidateCheckPositiveValue(this, nameof(maxParticleNumber), maxParticleNumber, false);
-        HelperUtilities.ValidateCheckPositiveValue(this, nameof(emissionRate), emissionRate, true);
-        HelperUtilities.ValidateCheckPositiveValue(this, nameof(burstParticleNumber), burstParticleNumber, true);
-        HelperUtilities.ValidateCheckNullValue(this, nameof(weaponShootEffectPrefab), weaponShootEffectPrefab);
-    }
-
-#endif
-
-    #endregion Validation
 }

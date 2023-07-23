@@ -40,14 +40,4 @@ public class LightFlicker : MonoBehaviour
     {
         light2D.intensity = Random.Range(lightIntensityMin, lightIntensityMax);
     }
-
-    #region Validation
-#if UNITY_EDITOR
-    private void OnValidate()
-    {
-        HelperUtilities.ValidateCheckPositiveRange(this, nameof(lightIntensityMin), lightIntensityMin, nameof(lightIntensityMax), lightIntensityMax, false);
-        HelperUtilities.ValidateCheckPositiveRange(this, nameof(lightFlickerTimeMin), lightFlickerTimeMin, nameof(lightFlickerTimeMax), lightFlickerTimeMax, false);
-    }
-#endif
-    #endregion
 }

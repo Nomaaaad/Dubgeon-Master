@@ -233,19 +233,4 @@ public class EnemyMovementAI : MonoBehaviour
         // If no non-obstacle cells found surrounding the player - send the enemy in the direction of an enemy spawn position
         return (Vector3Int)currentRoom.spawnPositionArray[Random.Range(0, currentRoom.spawnPositionArray.Length)];
     }
-
-
-
-    #region Validation
-
-#if UNITY_EDITOR
-
-    private void OnValidate()
-    {
-        HelperUtilities.ValidateCheckNullValue(this, nameof(movementDetails), movementDetails);
-    }
-
-#endif
-
-    #endregion Validation
 }

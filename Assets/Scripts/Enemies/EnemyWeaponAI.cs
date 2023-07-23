@@ -126,15 +126,4 @@ public class EnemyWeaponAI : MonoBehaviour
 
         return false;
     }
-
-    #region Validation
-#if UNITY_EDITOR
-
-    private void OnValidate()
-    {
-        HelperUtilities.ValidateCheckNullValue(this, nameof(weaponShootPosition), weaponShootPosition);
-    }
-
-#endif
-    #endregion Validation
 }

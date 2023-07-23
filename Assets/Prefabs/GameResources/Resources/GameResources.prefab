@@ -44,6 +44,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f5a774382de194449dfcde28e88d57c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePrefab: {fileID: 3881172719788070104, guid: 8fb09b9c90dffe34ab910c1f5185d212, type: 3}
+  playerSelectionPrefab: {fileID: 5228501681413379064, guid: a1be3afb9edd4024eaba0de9dbbaf654, type: 3}
+  playerDetailsList:
+  - {fileID: 11400000, guid: 45c479e370cd6f040b683bfa1c1e778d, type: 2}
+  - {fileID: 11400000, guid: cef9ee4bc7e779e4eac8db60d47809fe, type: 2}
+  - {fileID: 11400000, guid: 9ceac4255bc142b4386f510765729494, type: 2}
+  mainMenuMusic: {fileID: 11400000, guid: b1be8b1bc62b52a49aeab65da5705453, type: 2}
   roomNodeTypeList: {fileID: 11400000, guid: 01ce967f1a78da44590c5a9b45bf4c7d, type: 2}
   currentPlayer: {fileID: 11400000, guid: 2c4a351f6b1d2e04986d9e514d54c09d, type: 2}
   dimmedMaterial: {fileID: 2100000, guid: fd5ae752e16da36428c7ae98c49dc19e, type: 2}

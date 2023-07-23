@@ -318,21 +318,4 @@ public class WeaponStatusUI : MonoBehaviour
             StopCoroutine(blinkingReloadTextCoroutine);
         }
     }
-
-    #region Validation
-#if UNITY_EDITOR
-
-    private void OnValidate()
-    {
-        HelperUtilities.ValidateCheckNullValue(this, nameof(weaponImage), weaponImage);
-        HelperUtilities.ValidateCheckNullValue(this, nameof(ammoHolderTransform), ammoHolderTransform);
-        HelperUtilities.ValidateCheckNullValue(this, nameof(reloadText), reloadText);
-        HelperUtilities.ValidateCheckNullValue(this, nameof(ammoRemainingText), ammoRemainingText);
-        HelperUtilities.ValidateCheckNullValue(this, nameof(weaponNameText), weaponNameText);
-        HelperUtilities.ValidateCheckNullValue(this, nameof(reloadBar), reloadBar);
-        HelperUtilities.ValidateCheckNullValue(this, nameof(barImage), barImage);
-    }
-
-#endif
-    #endregion Validation
 }

@@ -223,16 +223,4 @@ public class Ammo : MonoBehaviour, IFireable
     {
         return gameObject;
     }
-
-    #region Validation
-#if UNITY_EDITOR
-
-    private void OnValidate()
-    {
-        HelperUtilities.ValidateCheckNullValue(this, nameof(trailRenderer), trailRenderer);
-    }
-
-#endif
-    #endregion Validation
-
 }

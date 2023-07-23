@@ -23,15 +23,4 @@ public class MusicTrackSO : ScriptableObject
     #endregion
     [Range(0, 1)]
     public float musicVolume = 1f;
-
-    #region Validation
-#if UNITY_EDITOR
-    private void OnValidate()
-    {
-        HelperUtilities.ValidateCheckEmptyStrings(this, nameof(musicName), musicName);
-        HelperUtilities.ValidateCheckNullValue(this, nameof(musicClip), musicClip);
-        HelperUtilities.ValidateCheckPositiveValue(this, nameof(musicVolume), musicVolume, true);
-    }
-#endif
-    #endregion
 }

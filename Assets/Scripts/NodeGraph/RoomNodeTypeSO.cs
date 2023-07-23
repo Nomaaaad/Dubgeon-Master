@@ -14,13 +14,4 @@ public class RoomNodeTypeSO : ScriptableObject
     public bool isEntrance;
     public bool isBossRoom;
     public bool isNone;
-
-    #region Validation
-#if UNITY_EDITOR
-    private void OnValidate()
-    {
-        HelperUtilities.ValidateCheckEmptyStrings(this, nameof(roomNodeTypeName), roomNodeTypeName);
-    }
-#endif
-    #endregion
 }

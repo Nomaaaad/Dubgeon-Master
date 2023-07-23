@@ -23,13 +23,4 @@ public class ReceiveContactDamage : MonoBehaviour
 
         health.TakeDamage(damageAmount);
     }
-
-    #region Validation
-#if UNITY_EDITOR
-    private void OnValidate()
-    {
-        HelperUtilities.ValidateCheckPositiveValue(this, nameof(contactDamageAmount), contactDamageAmount, true);
-    }
-#endif
-    #endregion
 }

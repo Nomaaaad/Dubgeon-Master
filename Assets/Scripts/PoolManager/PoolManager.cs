@@ -108,13 +108,4 @@ public class PoolManager : SingletonMonobehaviour<PoolManager>
         componentToReuse.transform.rotation = rotation;
         componentToReuse.gameObject.transform.localScale = prefab.transform.localScale;
     }
-
-    #region Validation
-#if UNITY_EDITOR
-    private void OnValidate()
-    {
-        HelperUtilities.ValidateCheckEnumerableValues(this, nameof(poolArray), poolArray);
-    }
-#endif
-    #endregion
 }

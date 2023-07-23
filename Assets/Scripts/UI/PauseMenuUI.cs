@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 
 public class PauseMenuUI : MonoBehaviour
@@ -40,6 +41,12 @@ public class PauseMenuUI : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+    // Quit and load main menu - linked to from pause menu UI button
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene("MainMenuScene");
+    }
+
     /// <summary>
     /// Increase music volume - linked to from music volume increase button in UI
     /// </summary>
@@ -75,17 +82,4 @@ public class PauseMenuUI : MonoBehaviour
         SoundEffectManager.Instance.DecreaseSoundsVolume();
         soundsLevelText.SetText(SoundEffectManager.Instance.soundsVolume.ToString());
     }
-
-
-    #region Validation
-#if UNITY_EDITOR
-
-    private void OnValidate()
-    {
-        HelperUtilities.ValidateCheckNullValue(this, nameof(musicLevelText), musicLevelText);
-        HelperUtilities.ValidateCheckNullValue(this, nameof(soundsLevelText), soundsLevelText);
-    }
-
-#endif
-    #endregion Validation
 }

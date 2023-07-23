@@ -32,18 +32,4 @@ public class Minimap : MonoBehaviour
             miniMapPlayer.transform.position = playerTransform.position;
         }
     }
-
-    #region Validation
-
-#if UNITY_EDITOR
-
-    private void OnValidate()
-    {
-        HelperUtilities.ValidateCheckNullValue(this, nameof(miniMapPlayer), miniMapPlayer);
-    }
-
-#endif
-
-    #endregion Validation
-
 }

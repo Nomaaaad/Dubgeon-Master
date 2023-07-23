@@ -48,13 +48,4 @@ public class AimWeapon : MonoBehaviour
                 break;
         }
     }
-
-    #region Validation
-#if UNITY_EDITOR
-    private void OnValidate()
-    {
-        HelperUtilities.ValidateCheckNullValue(this, nameof(weaponRotationPointTransform), weaponRotationPointTransform);
-    }
-#endif
-    #endregion
 }

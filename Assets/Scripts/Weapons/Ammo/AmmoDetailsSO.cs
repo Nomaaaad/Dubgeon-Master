@@ -31,34 +31,4 @@ public class AmmoDetailsSO : ScriptableObject
     public Material ammoTrailMaterial;
     [Range(0f, 1f)] public float ammoTrailStartWidth;
     [Range(0f, 1f)] public float ammoTrailEndWidth;
-
-
-    #region Validation
-#if UNITY_EDITOR
-    // Validate the scriptable object details entered
-    private void OnValidate()
-    {
-        HelperUtilities.ValidateCheckEmptyStrings(this, nameof(ammoName), ammoName);
-        HelperUtilities.ValidateCheckNullValue(this, nameof(ammoSprite), ammoSprite);
-        HelperUtilities.ValidateCheckEnumerableValues(this, nameof(ammoPrefabArray), ammoPrefabArray);
-        HelperUtilities.ValidateCheckNullValue(this, nameof(ammoMaterial), ammoMaterial);
-        if (ammoChargeTime > 0)
-            HelperUtilities.ValidateCheckNullValue(this, nameof(ammoChargeMaterial), ammoChargeMaterial);
-        HelperUtilities.ValidateCheckPositiveValue(this, nameof(ammoDamage), ammoDamage, false);
-        HelperUtilities.ValidateCheckPositiveRange(this, nameof(ammoSpeedMin), ammoSpeedMin, nameof(ammoSpeedMax), ammoSpeedMax, false);
-        HelperUtilities.ValidateCheckPositiveValue(this, nameof(ammoRange), ammoRange, false);
-        HelperUtilities.ValidateCheckPositiveRange(this, nameof(ammoSpreadMin), ammoSpreadMin, nameof(ammoSpreadMax), ammoSpreadMax, true);
-        HelperUtilities.ValidateCheckPositiveRange(this, nameof(ammoSpawnAmountMin), ammoSpawnAmountMin, nameof(ammoSpawnAmountMax), ammoSpawnAmountMax, false);
-        HelperUtilities.ValidateCheckPositiveRange(this, nameof(ammoSpawnIntervalMin), ammoSpawnIntervalMin, nameof(ammoSpawnIntervalMax), ammoSpawnIntervalMax, true);
-        if (isAmmoTrail)
-        {
-            HelperUtilities.ValidateCheckPositiveValue(this, nameof(ammoTrailTime), ammoTrailTime, false);
-            HelperUtilities.ValidateCheckNullValue(this, nameof(ammoTrailMaterial), ammoTrailMaterial);
-            HelperUtilities.ValidateCheckPositiveValue(this, nameof(ammoTrailStartWidth), ammoTrailStartWidth, false);
-            HelperUtilities.ValidateCheckPositiveValue(this, nameof(ammoTrailEndWidth), ammoTrailEndWidth, false);
-        }
-    }
-
-#endif
-    #endregion
 }

@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicName: Dungeon Melancholy
   musicClip: {fileID: 8300000, guid: 7c65c6045b7ddae45aa34ecdc3810f34, type: 3}
-  musicVolume: 1
+  musicVolume: 0.7

@@ -402,18 +402,5 @@ public class PlayerControl : MonoBehaviour
         // Set current weapon
         SetWeaponByIndex(currentWeaponIndex);
     }
-
-    #region Validation
-
-#if UNITY_EDITOR
-
-    private void OnValidate()
-    {
-        HelperUtilities.ValidateCheckNullValue(this, nameof(movementDetails), movementDetails);
-    }
-
 }
-#endif
-
-#endregion Validation
 

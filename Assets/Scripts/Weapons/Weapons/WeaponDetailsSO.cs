@@ -17,29 +17,4 @@ public class WeaponDetailsSO : ScriptableObject
     public WeaponShootEffectSO weaponShootEffect;
     public SoundEffectSO weaponFiringSoundEffect;
     public SoundEffectSO weaponReloadingSoundEffect;
-
-
-    #region Validation
-#if UNITY_EDITOR
-
-    private void OnValidate()
-    {
-        HelperUtilities.ValidateCheckEmptyStrings(this, nameof(weaponName), weaponName);
-        HelperUtilities.ValidateCheckNullValue(this, nameof(weaponCurrentAmmo), weaponCurrentAmmo);
-        HelperUtilities.ValidateCheckPositiveValue(this, nameof(weaponFireRate), weaponFireRate, false);
-        HelperUtilities.ValidateCheckPositiveValue(this, nameof(weaponPrechargeTime), weaponPrechargeTime, true);
-
-        if (!hasInfiniteAmmo)
-        {
-            HelperUtilities.ValidateCheckPositiveValue(this, nameof(weaponAmmoCapacity), weaponAmmoCapacity, false);
-        }
-
-        if (!hasInfiniteClipCapacity)
-        {
-            HelperUtilities.ValidateCheckPositiveValue(this, nameof(weaponClipAmmoCapacity), weaponClipAmmoCapacity, false);
-        }
-    }
-
-#endif
-    #endregion Validation
 }

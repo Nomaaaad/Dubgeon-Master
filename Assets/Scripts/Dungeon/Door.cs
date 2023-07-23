@@ -71,13 +71,4 @@ public class Door : MonoBehaviour
             OpenDoor();
         }
     }
-
-    #region Validation
-#if UNITY_EDITOR
-    private void OnValidate()
-    {
-        HelperUtilities.ValidateCheckNullValue(this, nameof(doorCollider), doorCollider);
-    }
-#endif
-    #endregion
 }

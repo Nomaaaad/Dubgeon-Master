@@ -74,4 +74,7 @@ public static class Settings
 
     public const float musicFadeOutTime = 0.5f;  // Defualt Music Fade Out Transition
     public const float musicFadeInTime = 0.5f;  // Default Music Fade In Transition
+
+    public const int numberOfHighScoresToSave = 100;
+
 }
